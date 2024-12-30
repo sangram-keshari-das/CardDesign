@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Design</title>
+    <style>
+        *,*::before,*::after{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Samsung Sharp Sans", sans-serief;
+            background-color: black;
+            color:white;
+        }
+        .btn{
+            cursor: pointer;
+            background-color:#0056b3;
+            color:#fff;
+            padding:10px 20px;
+            border-radius: 5px;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+        .card{
+            background: rgb(216,50,45);
+            background: radial-gradient(circle, rgba(216,50,45,1) 4%, rgba(68,69,219,1) 54%, rgba(220,65,209,1) 91%);
+            width:600px;
+            margin:100px auto;
+            padding: 60px;
+            line-height:1.2;
+            border-radius: 20px;
+        }
+        .name{
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 3px;
+            color:aqua;
+        }
+        .title{
+            margin:15px 0px;
+        }
+        .description{
+            line-height: 1.2;
+            max-width: 50ch;
+            text-align: justify;
+        }
+        .btn{
+            margin-top: 20px;
+        }
+        .btn:hover{
+            background-color:rgb(0, 255, 8);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p class="name"><marquee>Tap Academy</marquee></p>
+    <h1 class="title">Gamify Learning Simplify Employment</h1>
+    <p class="description">
+        Tap Academy blends AR, Animation, and AI to teach coding,
+        <strong>full stack web development</strong>, and tech trends, fostering 
+        personalised learning and community engagement.
+    </p>
+    <button class="btn">Learn more</button>
+    </div>
+
+    
+</body>
+</html>
